@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#root {
+   background-color: lightgray;
+
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 600px){.darken-overlay .MuiTypography-h1 {
+  font-size: 2rem
+}}
+
+.darken-overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about-me-text {
+  /* word-wrap: break-word; */
+  float: left;
+}
+
+.container {
+  background-color:rgb(255,255,255, .8);
+}
+
+#footer {
+  position:fixed;
+  bottom:0px;
+  left: 48%
+}
+
+.nav-img {
+  margin-right: 5px;
+}
+
+#jumbotron {
+  background-image: url("/public/assets/images/hero2.jpg");
+  background-size:cover;
+  
+}
+
+#hero-h1 {
+  font-weight: 600;
+  font-size: 60px;
+  filter: brightness(100%);
+  color: white;
+  /* background: rgba(116, 137, 179, 0.5); */
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+}
+
+#hero-txt {
+  /* background: rgba(116, 137, 179, 0.3); */
+  color: white;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+}
+
+#h1 {
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  
+}
+
+#about-me p{
+  margin-top: 0px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 22px;
+  /* display: inline-block; */
+
+}
+#img1 {
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-top: 5px;
+  height: 250px;
+  float:left;
+}
+
+
+
+/* Contact styles */
+
+#sendbtn {
+  margin-top: 15px;
+}
+
+/* Portfolio styles */
+
+
+.portfolio-card {
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 75vw; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+}
+
+
+.card-link {
+  width: 50%;    
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Mukta', sans-serif;
+  position:absolute;
+  left: 25%;
+  bottom: 15%;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* width: 91.5%; */
+  /* padding-right: 15px; */
+}
+
+.card-link:hover{
+  color:grey;
+}
+
+.repo-link {  
+  width: 50%;    
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Mukta', sans-serif;
+  position:absolute;
+  left: 25%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* width: 91.5%; */
+  /* padding-right: 15px; */
+}
+
+.img-card {
+  box-shadow: 5px 10px 5px black;
+  /* border-style: solid;
+  border-width: 2px;  */
+  border-color: black;
+  width:100%;
+  opacity: 50%;
+  background-color: black;
+}
+
+.img-card:hover {
+  width: 95%;
+  opacity: 100%
+}
